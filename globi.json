@@ -1,0 +1,70 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "ion2024-crayfish-pathogen.tsv",
+    "dcterms:bibliographicCitation" : "Ion MC, Bloomer CC, Bărăscu TI, Oficialdegui FJ, Shoobs NF, Williams BW, Scheers K, Clavero M, Grandjean F, Collas M, Baudry T, Loughman Z, Wright JJ, Ruokonen TJ, Chucholl C, Guareschi S, Koese B, Banyai ZM, Hodson J, Hurt M, Kaldre K, Lipták B, Fetzner JW, Cancellario T, Weiperth A, Birzaks J, Trichkova T, Todorov M, Balalaikins M, Griffin B, Petko ON, Acevedo-Alonso A, D’Elía G, Śliwińska K, Alekhnovich A, Choong H, South J, Whiterod N, Zorić K, Haase P, Soto I, Brady DJ, Haubrock PJ, Torres PJ, Şadrin D, Vlach P, Kaya C, Woo Jung S, Kim J, Vermeersch XHC, Bonk M, Guiaşu R, Harlioğlu MM, Devlin J, Kurtul I, Błońska D, Boets P, Masigol H, Cabe PR, Jussila J, Vrålstad T, Beresford DV, Reid SM, Patoka J, Strand DA, Tarkan AS, Steen F, Abeel T, Harwood M, Auer S, Kelly S, Giantsis IA, Maciaszek R, Alvanou MV, Aksu Ö, Hayes DM, Kawai T, Tricarico E, Chakandinakira A, Barnett ZC, Kudor ŞG, Beda AE, Vîlcea L, Mizeranschi AE, Neagul M, Licz A, Cotoarbă AD, Petrusek A, Kouba A, Taylor CA, Pârvulescu L. 2024. World of Crayfish™: a web platform towards real-time global mapping of freshwater crayfish and their pathogens. PeerJ 12:e18229 https://doi.org/10.7717/peerj.18229",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "hasPathogen",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002557",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "WoCID",
+        "titles" : "WoCID",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "DOI",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Citation",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "X",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Y",
+        "datatype" : "string"
+      }, {
+        "name" : "Accuracy",
+        "titles" : "Accuracy",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Crayfish_scientific_name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Pathogen_symbiont_present",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Year_of_observation",
+        "datatype" : "string"
+      }, {
+        "name" : "Contributor",
+        "titles" : "Contributor",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
