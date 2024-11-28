@@ -33,6 +33,10 @@
         "titles" : "DOI",
         "datatype" : "string"
       }, {
+        "name" : "referenceUrl",
+        "titles" : "URL",
+        "datatype" : "string"
+      }, {
         "name" : "referenceCitation",
         "titles" : "Citation",
         "datatype" : "string"
